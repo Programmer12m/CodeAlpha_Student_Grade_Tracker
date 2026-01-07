@@ -3,7 +3,7 @@
 //import java.util.ArrayList;
 //import java.util.Scanner;
 //
-//public class Main {
+//public class WithOutGui {
 //    static Scanner sc = new Scanner(System.in);
 //    static ArrayList<Student> students = new ArrayList<>();
 //

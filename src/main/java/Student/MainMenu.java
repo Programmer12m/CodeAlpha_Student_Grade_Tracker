@@ -6,15 +6,15 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class AppletMain {
+public class MainMenu {
 
     private final ArrayList<Student> students = new ArrayList<>();
     private JFrame frame;
     private JTable table;
     private DefaultTableModel tableModel;
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new AppletMain().createGUI());
+    public static void mainMenu() {
+        SwingUtilities.invokeLater(() -> new MainMenu().createGUI());
     }
 
     private void createGUI() {
